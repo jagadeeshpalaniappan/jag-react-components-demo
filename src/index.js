@@ -1,0 +1,20 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import Example, { SideNav } from "jag-react-components-test";
+
+import "./styles.css";
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Hello CodeSandbox</h1>
+      <hr />
+      <Example />
+      <hr />
+      <SideNav />
+    </div>
+  );
+}
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
