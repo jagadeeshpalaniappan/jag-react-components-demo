@@ -18,7 +18,7 @@ function App() {
       <h3>Component 2: </h3>
       <JagTestComponent1 />
       <hr />
-      <h3>Component 2: </h3>
+      <h3>Component 3: </h3>
       <JagTestComponent2 color="deepskyblue" />
     </div>
   );
