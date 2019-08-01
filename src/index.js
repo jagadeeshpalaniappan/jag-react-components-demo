@@ -4,6 +4,10 @@ import JagTestComponentDefault, {
   JagTestComponent1,
   JagTestComponent2
 } from "jag-react-components";
+// Add: css
+import "jag-react-components/build/static/css/index.css";
+
+import SimpleOffcanvasDemo from "./SimpleOffcanvasDemo/SimpleOffcanvasDemo";
 
 import "./styles.css";
 
@@ -20,6 +24,10 @@ function App() {
       <hr />
       <h3>Component 3: </h3>
       <JagTestComponent2 color="deepskyblue" />
+
+      <hr />
+      <h3>Component 3: </h3>
+      <SimpleOffcanvasDemo />
     </div>
   );
 }

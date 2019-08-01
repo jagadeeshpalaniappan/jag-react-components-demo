@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.close-btn {
+  font-size: 30px;
+  color: #818181;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.open-btn {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.bg-grey {
+  background-color: #f2f2f2;
+  color: #818181;
+}
+.bg-blue {
+  background-color: grey;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+header .title {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+main {
+  padding: 22px;
+  color: #818181;
+}
